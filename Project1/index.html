@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Freecode camp Certified Project</title>
+</head>
+
+<body>
+    <h1 id="title"">freeCodeCamp Survey Form</h1>
+    <p id=" description">Thank you for taking the time to help us improve the platform</p>
+        <form action="" id="survey-form">
+            <div class="row">
+                <div class="col">
+                    <label for="name" id="name-label">Name
+                        <input id="name" class="input-group" type="text" placeholder="Enter your Name" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="email" id="email-label">Email
+                        <input id="email" class="input-group" type="email" placeholder="Enter your Email" required>
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email" id="email-label">Email
+                        <input id="email" class="input-group" type="email" placeholder="Enter your Email" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="number" id="number-label">Age (optional)
+                        <input id="number" class="input-group" type="number" placeholder="Age" min="18" max="120">
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="dropdown">Which option best describes your current role?
+                        <select name="dropdown" id="dropdown">
+                            <option value="">Select current role</option>
+                            <option value="Student">Student</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="col">
+                    <label>Would you recommend this page?</label>
+                    <div class="row">
+                        <div class="col" style="text-align: center;">
+                            <label for="recommend" class="label-radio">
+                                <input type="radio" name="recommend" value="1" checked>
+                                Yes
+                            </label>
+                        </div>
+                        <div class="col" style="text-align: center;">
+                            <label for="recommend" class="label-radio">
+                                <input type="radio" name="recommend" value="0">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Would you recommend this page?</label>
+                    <label for="like-2" class="checklabel">
+                        <input type="checkbox" name="like-2" value="1">
+                        No
+                    </label>
+                    <label for="like-1" class="checklabel">
+                        <input type="checkbox" name="like-1" value="0">
+                        Yes
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="txt-commentary">Commmentary</label>
+                    <label for="like-2">
+                        <textarea name="txt-commentary" id="txt-commentary" cols="30" rows="10"></textarea>
+                    </label>
+                </div>
+            </div>
+            <input type="submit" id="submit"></input>
+        </form>
+</body>
+
+</html>

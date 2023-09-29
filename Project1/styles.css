@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(113, 210, 173, 0.926);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+}
+form {
+  margin: 10px 70px;
+  border: 1px black solid;
+  padding: 30px;
+  background-color: rgb(150, 179, 219);
+  color: black;
+}
+form .input-group {
+  width: 90%;
+  display: block;
+  padding: 10px 0px 10px 15px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 1px black solid;
+}
+form input[type="radio"] {
+  display: inline-block;
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+}
+form input[type="checbox"] {
+  margin: 0px;
+}
+form .label-radio {
+  padding: 20px 0px;
+  font-size: 1.5rem;
+  display: block;
+}
+form label {
+  padding: 20px 0px;
+  font-size: 1.5rem;
+  display: block;
+  width: 100%;
+}
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 0px transparent solid;
+}
+input[type="submit"] {
+  display: block;
+  background-color: green;
+  width: 90%;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  margin: 20px auto;
+}
+form textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0px 0px 10px;
+}
+/* Custom row class */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px; /* Adjust as needed */
+  margin-left: -15px; /* Adjust as needed */
+}
+
+/* Custom col class for creating columns */
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  padding-right: 15px; /* Adjust as needed */
+  padding-left: 15px; /* Adjust as needed */
+}
